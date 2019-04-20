@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @ImportResource("classpath:/com/mentorarm/mentorarm-api-web-context.xml")
 @SpringBootApplication
-//@EnableJpaRepositories("com.mentorarm.repositories")
+@EnableJpaRepositories("com.mentorarm.repositories")
 public class MentorArmeniaApplication {
 
     public static void main(String[] args) {
