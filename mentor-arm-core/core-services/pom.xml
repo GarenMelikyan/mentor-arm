@@ -11,5 +11,11 @@
 
     <artifactId>core-services</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.mentorarm</groupId>
+            <artifactId>core-repositories</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 </project>

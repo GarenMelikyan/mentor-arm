@@ -11,5 +11,11 @@
 
     <artifactId>api-web</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.mentorarm</groupId>
+            <artifactId>api-endpoints</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 </project>
