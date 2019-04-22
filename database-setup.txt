@@ -1,0 +1,21 @@
+
+
+Use Docker instance to create postgres database.
+
+
+## Init postgres instance
+docker run --name mentorarm-postgres -e POSTGRES_PASSWORD=mentorarm -d -p 5432:5432 postgres
+
+## Connect to Database and create new one using with following scripts.
+
+## Create database
+create database mentorarmdb;
+
+## Create user
+create user mentorarm with encrypted password 'mentorarm';
+
+## Add access to user
+grant all privileges on database mentorarmdb to mentorarm;
+
+
+App and database configuration can be found in mentorarm-repositories.properties file (mentor-arm-core -> core-repositories module)
