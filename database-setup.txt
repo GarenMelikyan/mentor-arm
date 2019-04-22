@@ -19,3 +19,6 @@ grant all privileges on database mentorarmdb to mentorarm;
 
 
 App and database configuration can be found in mentorarm-repositories.properties file (mentor-arm-core -> core-repositories module)
+
+
+swagger url http://localhost:8080/swagger-ui.html
